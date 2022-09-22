@@ -1,0 +1,30 @@
+application:
+  meta:
+    name: chime-developer-sdk-template
+    description: This is a prototype chime-developer-sdk-template application
+    author: null
+  schema:
+    - name: NAAS_CLUSTER
+      displayName: NaaS Cluster
+      description: Name of NaaS cluster for this application.
+      defaultValue: Default Cluster
+      type: string
+      group: General Settings
+    - name: VENDOR
+      displayName: VENDOR
+      description: Vendor.
+      defaultValue: Default Vendor
+      type: String
+      group: General Settings
+    - name: TECHNOLOGY
+      displayName: TECHNOLOGY
+      description: Technology.
+      defaultValue: Default Technology
+      type: String
+      group: General Settings
+    - name: HOST
+      displayName: HOST
+      description: Name of NaaS cluster for this application.
+      defaultValue: Default Host
+      type: string
+      group: General Settings
